@@ -19,12 +19,11 @@ This project leverages **IoT** and **robotics** to optimize warehouse operations
 │   ├── Object_Tracking.py   # Python script for robot and object tracking
 │   ├── IOT_TRUE.ino         # Arduino code for ESP32 communication and servo control
 ├── 📁 docs
-│   ├── Project_Report.pdf   # Detailed project report with system architecture
+│   ├── Final_Report.pdf   # Detailed project report with system architecture
 ├── 📁 resources
 │   ├── calibration_data.npz # Camera calibration data
 ├── 📁 images
-│   ├── system_diagram.png   # System architecture diagram
-│   ├── robot_example.jpg    # Image of the robot in action
+│   ├── IOT_Robot.jpg    # Image of the robot in action
 ├── README.md                # Project overview and instructions
 
 ```
@@ -72,24 +71,6 @@ This project leverages **IoT** and **robotics** to optimize warehouse operations
 1. Power on the ESP32 and connect it to the Wi-Fi network.
 2. Launch the Python tracking script to begin real-time robot monitoring.
 3. Use the Flask web interface (optional) to control the robots and view live updates.
-
-## Highlights
-
-### System Architecture
-
-![System Diagram](images/system_diagram.png)
-
-### Real-Time Tracking
-
-The system uses a camera feed to track the position of robots and objects in the warehouse.
-
-### Collaborative Robots
-
-Multiple robots can operate simultaneously, sharing data through a centralized IoT framework.
-
-### Project Video
-
-Watch the robots in action [here](#).
 
 ## Contributing
 
